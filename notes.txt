@@ -1,0 +1,41 @@
+NodeJS:
+
+Commands:
+https://www.npmjs.com/package/express
+npm install express
+
+https://www.npmjs.com/package/nodemon
+npm install -g nodemon
+
+https://www.npmjs.com/package/body-parser
+npm install body-parser
+
+[1] Install https://nodejs.org/en/download/
+
+[2] cmd -> node -v
+
+[3] cmd -> npm -v
+
+[4] cmd -> node
+Here Run JS codes
+To exit: Two times Ctrl + C
+
+[5] Create a new folder named as express_js_work
+
+[6] Go to express_js_work folder and run command npm init
+npm init = node package manager initialization
+It creates a package
+
+[7] Run command : type NUL > express_server.js
+
+[8] Open express_server.js
+
+[9] Command : nodemon express_server.js
+Note: Open Cmd with run as administrator
+
+Notes:
+- To handle HTTP POST request in Express.js version 4 and above, you need to install middleware module called body-parser.
+- body-parser extract the entire body portion of an incoming request stream and exposes it on request.body.
+- The middleware was a part of Express.js earlier but now you have to install it separately.
+- This body-parser module parses the JSON, buffer, string and URL encoded data submitted using HTTP POST request. Install body-parser using NPM as shown below.
+
